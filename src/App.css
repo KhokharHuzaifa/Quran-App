@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+}
+::-webkit-scrollbar{
+  width: 7px; 
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(177, 144, 31);
+}
+.title {
+  font-size: 100px;
+  font-weight: 700;
+  word-spacing: -10px;
+}
+audio{
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 100px;
+    height: 25px;
+}
+.title-font {
+  font-family: "Lemonada", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.card-title {
+  font-family: "Noto Nastaliq Urdu";
+}
+.suraName{
+    font-family: "Amiri", serif;
+    color: rgb(129, 129, 129);
+    transition: 0.2s ease-in;
+}
+.suraName:hover{
+  color: black;
+  cursor: pointer;
+}
+.fontQuran{
+    font-family: "Noto Naskh Arabic", serif;
+    word-spacing: 5px;
+    font-weight: 400;
+    transition: 0.3s ease;
+    
+}
+.fontQuran:hover{
+  color: rgb(177, 144, 31) ;
+  cursor: pointer;
+}
+.mainCards {
+  transition: 0.2s ease-in;
+  box-shadow: 0px 0px 3px 1px;
+}
+.mainCards:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+button{
+  box-shadow: none !important;
+}
+.navbar{
+  background-color: rgb(177, 144, 31) !important;
+  color: white !important;
+  height: 8vh;
+  box-shadow: 0px 0px 7px 1px black;
+}
+.credit{
+  line-height: 5vh;
+}
+.error-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.errorText{
+  font-size: 180px;
+}
+.error-desc{
+  font-size: 20px;
+}
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 60px;
+  }
+  .offcanvas{
+  width: 75vw !important;
+}
+}
+
+@keyframes ldio-rurz9ansjwk {
+    0% { transform: rotate(0deg) }
+   50% { transform: rotate(22.5deg) }
+  100% { transform: rotate(45deg) }
+}
+.ldio-rurz9ansjwk > div {
+  transform-origin: 121px 121px;
+  animation: ldio-rurz9ansjwk 0.6211180124223602s infinite linear;
+}
+.ldio-rurz9ansjwk > div div {
+    position: absolute;
+    width: 33.879999999999995px;
+    height: 188.76px;
+    background: #b1901f;
+    left: 121px;
+    top: 121px;
+    transform: translate(-50%,-50%);
+}
+.ldio-rurz9ansjwk > div div:nth-child(1) {
+    width: 145.2px;
+    height: 145.2px;
+    border-radius: 50%;
+}
+.ldio-rurz9ansjwk > div div:nth-child(6) {
+    width: 106.47999999999999px;
+    height: 106.47999999999999px;
+    background: whitesmoke;
+    border-radius: 50%;
+}.ldio-rurz9ansjwk > div div:nth-child(3) {
+  transform: translate(-50%,-50%) rotate(45deg)
+}.ldio-rurz9ansjwk > div div:nth-child(4) {
+  transform: translate(-50%,-50%) rotate(90deg)
+}.ldio-rurz9ansjwk > div div:nth-child(5) {
+  transform: translate(-50%,-50%) rotate(135deg)
+}
+.loadingio-spinner-gear-yzaezf3dcmj {
+  width: 242px;
+  height: 242px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-rurz9ansjwk {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
