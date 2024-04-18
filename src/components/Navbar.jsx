@@ -1,4 +1,4 @@
-import React fr 'react'
+import React fro 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar({ surahName, surahNameTrans , loading }) {
