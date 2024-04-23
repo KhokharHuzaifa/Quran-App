@@ -1,5 +1,5 @@
 import React from 'react'
-import { useGetWholeQuranQuery } from '../redux/QuranApi'
+import { useGetWholeQuranQuery } from '../redux/QuranApi';
 import { Link } from 'react-router-dom';
 function SurahCard() {
     const { data, error, isLoading } = useGetWholeQuranQuery();
