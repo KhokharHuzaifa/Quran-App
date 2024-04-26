@@ -1,4 +1,4 @@
-import React from 'react'
+i React from 'react'
 
 function Error() {
   return (
