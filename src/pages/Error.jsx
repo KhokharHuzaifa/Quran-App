@@ -1,4 +1,4 @@
-imp React from 'react'
+impo React from 'react'
 
 function Error() {
   return (
