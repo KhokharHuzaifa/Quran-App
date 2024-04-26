@@ -1,4 +1,4 @@
-im React from 'react'
+imp React from 'react'
 
 function Error() {
   return (
